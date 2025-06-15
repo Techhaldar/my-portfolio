@@ -10,8 +10,8 @@ const HeroText = () => {
         RATIN HALDAR
       </h1>
       <p className="text-lg mt-4 text-white">
-        A Passionate Web Developer and Instructor <br /> with 3 years of
-        experience.
+        Entry-level Web Developer driven by curiosity, <br />
+        creativity, and a love for coding.
       </p>
     </div>
   );
