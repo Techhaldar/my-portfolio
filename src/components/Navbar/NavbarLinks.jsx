@@ -1,10 +1,10 @@
 import React from "react";
 
 const links = [
-  { link: "About Me", section: "about" },
-  { link: "Skills", section: "skills" },
-  { link: "Experience", section: "experience" },
-  { link: "Contact", section: "contact" },
+  { link: "About Me", section: "about", id: "about" },
+  { link: "Skills", section: "skills", id: "skills" },
+  { link: "Projects", section: "Projects", id: "project" },
+  { link: "Contact", section: "contact", id: "contact" },
 ];
 const NavbarLinks = () => {
   return (
@@ -13,7 +13,7 @@ const NavbarLinks = () => {
         return (
           <li key={index} className="group">
             <a
-              href=""
+              href={`#${link.id}`}
               className="cursor-pointertext-white hover:text-cyan transition-all duration-500"
             >
               {link.link}

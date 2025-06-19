@@ -10,7 +10,7 @@ import ContactMeMain from "./components/contactMeSection/ContactMeMain";
 
 function App() {
   return (
-    <main className="font-body">
+    <main className="font-body scroll-smooth">
       <NavbarMain />
       <HeroMain />
       <SubHeroSection />

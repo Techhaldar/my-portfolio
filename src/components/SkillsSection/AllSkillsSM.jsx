@@ -5,6 +5,7 @@ import { DiJavascript } from "react-icons/di";
 import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
+import { FaBootstrap } from "react-icons/fa";
 
 import { FaGitAlt } from "react-icons/fa";
 import { FaNode } from "react-icons/fa";
@@ -31,6 +32,10 @@ const skills = [
   {
     skill: "Tailwind css",
     icon: RiTailwindCssFill,
+  },
+  {
+    skill: "Bootstrap",
+    icon: FaBootstrap,
   },
   {
     skill: "Node",
