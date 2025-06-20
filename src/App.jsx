@@ -5,12 +5,12 @@ import AboutMeMain from "./components/AboutMeSection/AboutMeMain";
 import SkillsMain from "./components/SkillsSection/SkillsMain";
 import SubSkills from "./components/SkillsSection/SubSkills";
 import ProjectMain from "./components/ProjectSection/ProjectMain";
-import HelperSection from "./components/HelperSection";
 import ContactMeMain from "./components/contactMeSection/ContactMeMain";
+import FooterMain from "./components/Footer/FooterMain";
 
 function App() {
   return (
-    <main className="font-body scroll-smooth">
+    <main className="font-body">
       <NavbarMain />
       <HeroMain />
       <SubHeroSection />
@@ -19,7 +19,7 @@ function App() {
       <SubSkills />
       <ProjectMain />
       <ContactMeMain />
-      <HelperSection />
+      <FooterMain />
     </main>
   );
 }

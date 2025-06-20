@@ -42,7 +42,7 @@ const ContactForm = () => {
 
   return (
     <div>
-      <p className="text-green-600">{success}</p>
+      <p className="text-cyan">{success}</p>
       <form
         className="flex flex-col gap-4 text-white"
         ref={form}

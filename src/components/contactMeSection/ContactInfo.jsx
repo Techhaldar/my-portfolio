@@ -1,7 +1,7 @@
 import React from "react";
 import { MdOutlineMail } from "react-icons/md";
 import { LuPhone } from "react-icons/lu";
-import { IoLocationOutline } from "react-icons/io5";
+import { CiLocationOn } from "react-icons/ci";
 import SingleInfo from "./SingleInfo";
 
 const ContactInfo = () => {
@@ -10,9 +10,9 @@ const ContactInfo = () => {
       <SingleInfo text="ratinhaldar123@gmail.com" Image={MdOutlineMail} />
       <SingleInfo text="+91 7351721372" Image={LuPhone} />
       <SingleInfo
-        text="KHATIMA,UDHAM SINGH NAGAR,UTTARAKHAND 262308"
-        Image={IoLocationOutline}
-        className="text-3xl"
+        text="Khatima, Udham Singh Nagar, Uttarakhand 262308"
+        Image={CiLocationOn}
+        className="md:text-3xl"
       />
     </div>
   );

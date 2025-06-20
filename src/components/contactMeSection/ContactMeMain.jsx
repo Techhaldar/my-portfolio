@@ -4,7 +4,10 @@ import ContactMeRight from "./ContactMeRight";
 
 const ContactMeMain = () => {
   return (
-    <div className="max-w-[1200px] lg:mx-auto sm:mx-4 items-center justify-center mt-[100px]">
+    <div
+      id="contact"
+      className="max-w-[1200px] lg:mx-auto sm:mx-4 items-center justify-center mt-[100px]"
+    >
       <h2 className="text-6xl text-cyan b-10 text-center">Contact Me</h2>
       <div className="flex justify-between gap-24 bg-brown p-8 rounded-2xl lg:flex-row sm:flex-col">
         <ContactMeLeft />
