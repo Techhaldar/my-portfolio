@@ -1,6 +1,10 @@
 import React from "react";
 import ProjectText from "./ProjectText";
 import SingleProject from "./SingleProject";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../FrameMotion/variants";
+import { div } from "motion/react-client";
+
 const ProjectMain = () => {
   const projects = [
     {
@@ -38,17 +42,31 @@ const ProjectMain = () => {
 
   return (
     <div id="Projects" className="max-w-[1200px] mx-auto px-4">
-      <ProjectText />
+      <motion.div
+        variants={fadeIn("down", 0.2)}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.5 }}
+      >
+        <ProjectText />
+      </motion.div>
       <div className="flex flex-col gap-20 max-w-[900px] mx-auto mt-12">
         {projects.map((item, index) => {
           return (
-            <SingleProject
-              key={index}
-              name={item.name}
-              Description={item.Description}
-              align={item.align}
-              image={item.image}
-            />
+            <motion.div
+              variants={fadeIn("up", 0.2)}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: false, amount: 0.5 }}
+            >
+              <SingleProject
+                key={index}
+                name={item.name}
+                Description={item.Description}
+                align={item.align}
+                image={item.image}
+              />
+            </motion.div>
           );
         })}
       </div>

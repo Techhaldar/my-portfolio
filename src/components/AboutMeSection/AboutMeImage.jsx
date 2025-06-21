@@ -1,8 +1,16 @@
 import React from "react";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../FrameMotion/variants";
 
 const AboutMeImage = () => {
   return (
-    <div className="h-[500px] w-[300px] relative">
+    <motion.div
+      variants={fadeIn("left", 0.2)}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.5 }}
+      className="h-[500px] w-[300px] relative"
+    >
       <div className="h-[500px] w-[300px] rounded-[100px] absolute overflow-hidden">
         <img
           src="../../../src/Images/about-me.jpg"
@@ -11,7 +19,7 @@ const AboutMeImage = () => {
         />
       </div>
       <div className="h-[500px] w-[250px] bg-orange absolute bottom-[-30px] left-[-30px] rounded-bl-[120px] rounded-tr-[120px] rounded-br-[20px] rounded-tl-[20px] -z-10"></div>
-    </div>
+    </motion.div>
   );
 };
 
