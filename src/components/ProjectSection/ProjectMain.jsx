@@ -3,7 +3,7 @@ import ProjectText from "./ProjectText";
 import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../FrameMotion/variants";
-import { div } from "motion/react-client";
+// import { div } from "motion/react-client";m
 
 const ProjectMain = () => {
   const projects = [
