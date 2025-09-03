@@ -25,11 +25,11 @@ const ContactSocial = () => {
         Icon={BsTwitterX}
       />
       <SingleContactSocial
-        link="https://www.instagram.com/techhaldar/"
+        link="https://www.instagram.com/letstechonline/"
         Icon={FaInstagram}
       />
       <SingleContactSocial
-        link="https://www.youtube.com/@Techhaldar"
+        link="https://www.youtube.com/@letstechonline"
         Icon={FaYoutube}
       />
     </div>

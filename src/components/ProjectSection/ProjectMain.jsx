@@ -13,14 +13,14 @@ const ProjectMain = () => {
         "Created a modern, responsive Grocery Mart site with dynamic features",
       align: "right",
       image: "../../../src/Images/website-img-1.jpg",
-      link: "#",
+      link: "https://grocerymartpctm.netlify.app/",
     },
     {
       name: "MedPulse UI",
       Description: "Medical Is a Field That Encompasses The Study Life",
       align: "left",
       image: "../../../src/Images/website-img-2.webp",
-      link: "#",
+      link: "https://boffinbrainsassignment.netlify.app/",
     },
     {
       name: "Personal Portfolio",
@@ -28,7 +28,7 @@ const ProjectMain = () => {
         "Crafted a visually appealing portfolio website to showcase my skills and projects",
       align: "right",
       image: "../../../src/Images/website-img-3.jpg",
-      link: "#",
+      link: "https://ratinportfolio.netlify.app/",
     },
     {
       name: "Simple Calculator",
@@ -36,7 +36,7 @@ const ProjectMain = () => {
         "Created a modern, responsive Grocery Mart site with dynamic features",
       align: "left",
       image: "../../../src/Images/website-img-4.jpg",
-      link: "#",
+      link: "https://easysolutionscal.netlify.app/",
     },
   ];
 
@@ -65,6 +65,7 @@ const ProjectMain = () => {
                 Description={item.Description}
                 align={item.align}
                 image={item.image}
+                link={item.link}
               />
             </motion.div>
           );

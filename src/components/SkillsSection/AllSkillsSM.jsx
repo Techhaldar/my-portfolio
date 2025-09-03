@@ -6,7 +6,7 @@ import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
-
+import { SiExpress } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { FaNode } from "react-icons/fa";
 import { DiMongodb } from "react-icons/di";
@@ -41,16 +41,16 @@ const skills = [
     icon: FaBootstrap,
   },
   {
+    skill: "Express",
+    icon: SiExpress,
+  },
+  {
     skill: "Node",
     icon: FaNode,
   },
   {
     skill: "MongoDB",
     icon: DiMongodb,
-  },
-  {
-    skill: "Git",
-    icon: FaGitAlt,
   },
   {
     skill: "GitHub",
